@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Application</title>
+
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Supabase -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- External Script -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Animated Glass Background -->
+    <div class="background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="form-wrapper">
+        <form id="appForm" class="glass-panel">
+            <div class="form-header">
+                <h2>Join the Event</h2>
+                <p>Register to secure your spot</p>
+            </div>
+
+            <div class="input-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="rian shah" required />
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Riaanshah76@gmail.com" required />
+            </div>
+
+            <div class="input-group">
+                <label for="ku_id">KU ID</label>
+                <input type="text" id="ku_id" placeholder="Ex: KU507U0XXX" required />
+            </div>
+
+            <div class="input-group">
+                <label for="event_choice">Select Event</label>
+                <div class="select-wrapper">
+                    <select id="event_choice" required>
+                        <option value="" disabled selected hidden>Choose a workshop...</option>
+                        <option value="AR/VR">AR/VR Workshop</option>
+                        <option value="Full Stack">Full Stack Development</option>
+                        <option value="AI Algo">AI & Algorithms</option>
+                        <option value="Treasure Hunt">Treasure Hunt</option>
+                        <option value="Robotics">Robotics Challenge</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submit-btn">
+                <span>Submit Application</span>
+                <div class="btn-glow"></div>
+            </button>
+
+            <div id="status-message" class="status-message"></div>
+        </form>
+    </div>
+
+</body>
+
+</html>
