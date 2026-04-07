@@ -31,4 +31,14 @@ event-application/
 ├── style.css        # Styling and animations
 ├── script.js        # Form submission logic and Supabase integration
 ├── README.md        # Project documentation
-└── assets/          # Optional: images, screenshots, icons
+
+REGISTRATION APPLICATION--https://registration-beryl-seven.vercel.app
+<img width="1256" height="946" alt="image" src="https://github.com/user-attachments/assets/250a2c93-178c-4d90-b43a-5fd245097b99" />
+
+VERCEL FOR DEPLYOYING THE WEB APPLICATION (PaaS)-Platform as a Service
+The full form of PaaS is "Platform as a Service". It is a cloud computing model that provides a ready-to-use environment for developing, running, and managing applications without the need to manage the underlying infrastructure.
+<img width="1731" height="832" alt="image" src="https://github.com/user-attachments/assets/b0514181-44f5-4500-ac88-39d9c38057ac" />
+
+SUPABASE FOR DATABASE(USES SQL)-SUPABSE helps collect data and extract it if required for further analysis and changing strategies.
+<img width="1848" height="884" alt="image" src="https://github.com/user-attachments/assets/97026178-d58c-4652-a996-c9ca71bf26ab" />
+
